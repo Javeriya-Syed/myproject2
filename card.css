@@ -1,0 +1,101 @@
+.cardbody{
+    border:2px solid black;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+    width:20%;
+    border-radius: 5%;
+}
+.cardbody img{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    color:blue;
+}
+s{
+    color: brown;
+}
+button{
+    background-color: cadetblue;
+    color: cornsilk;
+    padding: 2%;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .cardbody{
+        border:2px solid black;
+        padding: 1%;
+        margin: 1%;
+        text-align: center;
+        width:90%;
+        border-radius: 5%;
+    }
+    .cardbody img{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h1{
+        color:blue;
+    }
+    s{
+        color: brown;
+    }
+    button{
+        background-color: cadetblue;
+        color: cornsilk;
+        padding: 2%;
+    }
+}
+
+
+@media only screen and (min-width:481px) and (max-width:768px){
+    .cardbody{
+        border:2px solid black;
+        padding: 1%;
+        margin: 1%;
+        text-align: right;
+        width:90%;
+        border-radius: 5%;
+    }
+
+    .cardbody{
+        display: flex;
+    }
+    .cardbody img{
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        im
+    }
+    h1{
+        color:blue;
+    }
+    s{
+        color: brown;
+    }
+    button{
+        background-color: cadetblue;
+        color: cornsilk;
+        padding: 2%;
+    }
+
+}
